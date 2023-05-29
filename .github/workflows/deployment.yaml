@@ -28,4 +28,4 @@ jobs:
       - name: Build
         run: CI=false npm run build
       - name: Deploy
-        run: aws s3 sync ./build s3://sierraips.com
+        run: aws s3 sync ./build s3://twomor.com
